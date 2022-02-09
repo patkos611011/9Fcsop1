@@ -1,0 +1,43 @@
+.navbar{
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px; 
+}
+
+.col-md-4 .indexleft{
+    justify-content: left;
+    text-align: left;
+}
+.col-md-4 .indexcenter{
+    justify-content: center;
+    text-align: center;
+}
+.col-md-4 .indexright{
+    justify-content: right;
+    text-align: right;
+}
+
+@media only screen and (max-width: 767px) {
+    .carousel-inner{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .col-md-4 .indexleft{
+        justify-content: center;
+        text-align: center;
+    }
+    .col-md-4 .indexcenter{
+        justify-content: center;
+        text-align: center;
+    }
+    .col-md-4 .indexright{
+        justify-content: center;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 767px) {
+    .carousel-inner img .d-block{
+        max-height: 400px;
+    }
+}
